@@ -1,0 +1,4 @@
+In this directory we have kinds of things:
+     (1) Python scripts for grabbing temperature and sun data from http://trexwww.ucc.nau.edu/cgi-bin/daily_average.pl
+     (2) Files of data the above scripts have acquired
+     (3) Mathematica notebooks analyzing this data, looking for predicted phase delays in sun/temperature data, as well as predicted 1/f noise in the temperature data
