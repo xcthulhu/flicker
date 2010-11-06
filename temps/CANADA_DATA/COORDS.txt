@@ -1,0 +1,238 @@
+ABBOTSFORD A  (BC)             49.02  122.37  
+CASTLEGAR A  (BC)              49.30  117.63  
+COMOX A  (BC)                  49.72  124.90  
+FORT ST. JOHN A  (BC)          56.23  120.73  
+KAMLOOPS A  (BC)               50.70  120.45  
+PENTICTON A  (BC)              49.47  119.60  
+PRINCE RUPERT A  (BC)          54.30  130.43  
+QUESNEL A  (BC)                53.03  122.52  
+SMITHERS A  (BC)               54.82  127.18  
+SPRING ISLAND  (BC)            50.00  127.42  
+TERRACE A  (BC)                54.47  128.58  
+TOFINO A  (BC)                 49.08  125.77  
+VICTORIA INT'L. A  (BC)        48.65  123.43  
+WILLIAMS LAKE A  (BC)          52.18  122.07  
+CALGARY INT'L. A  (ALTA)       51.10  114.02  
+COLD LAKE A  (ALTA)            54.42  110.28  
+CORONATION  (ALTA)             52.10  111.45  
+EDMONTON INT'L. A  (ALTA)      53.32  113.58  
+FORT MCMURRAY A  (ALTA)        56.65  111.22  
+GRANDE PRAIRIE A  (ALTA)       55.18  118.88  
+LETHBRIDGE A  (ALTA)           49.63  112.80  
+MEDICINE HAT A  (ALTA)         50.02  110.72  
+PEACE RIVER A  (ALTA)          56.23  117.43  
+RED DEER A  (ALTA)             52.18  113.90  
+ROCKY MTN. HOUSE  (ALTA)       52.38  114.92  
+VERMILION A  (ALTA)            53.35  110.83  
+WHITECOURT  (ALTA)             54.13  115.67  
+BROADVIEW  (SASK)              50.38  102.55  
+ESTEVAN A  (SASK)              49.07  103.00  
+MOOSE JAW A  (SASK)            50.33  105.55  
+NORTH BATTLEFORD A  (SASK)     52.77  108.25  
+PRINCE ALBERT A  (SASK)        53.22  105.68  
+REGINA A  (SASK)               50.43  104.67  
+SASKATOON  (SASK)              52.17  106.68  
+URANIUM CITY A  (SASK)         59.57  108.48  
+WYNYARD  (SASK)                51.77  104.20  
+YORKTON A  (SASK)              51.27  102.47  
+BRANDON A  (MAN)               49.92   99.95  
+DAUPHIN A  (MAN)               51.10  100.05  
+PORTAGE LA PRAIRIE A  (MAN)    49.90   98.27  
+THOMPSON A  (MAN)              55.80   97.87  
+ATIKOKAN  (ONT)                48.75   91.62  
+EARLTON A  (ONT)               47.70   79.85  
+GERALDTON  (ONT)               49.70   86.95  
+GORE BAY A  (ONT)              45.88   82.57  
+KENORA A  (ONT)                49.80   94.37  
+KINGSTON A  (ONT)              44.22   76.60  
+LONDON A  (ONT)                43.03   81.15  
+MOUNT FOREST  (ONT)            43.98   80.75  
+MUSKOKA A  (ONT)               44.97   79.30  
+NORTH BAY A  (ONT)             46.37   79.42  
+SAULT STE. MARIE A  (ONT)      46.48   84.50  
+SIMCOE  (ONT)                  42.85   80.27  
+SIOUX LOOKOUT A  (ONT)         50.12   91.90  
+SUDBURY A  (ONT)               46.62   80.80  
+THUNDER BAY A  (ONT)           48.37   89.32  
+TIMMINS A  (ONT)               48.57   81.37  
+TRENTON A  (ONT)               44.12   77.53  
+WIARTON A  (ONT)               44.75   81.10  
+WINDSOR A  (ONT)               42.27   82.97  
+BAGOTVILLE A  (QUE)            48.33   71.00  
+BAIE COMEAU A  (QUE)           49.13   68.20  
+GRINDSTONE ISLAND  (QUE)       47.38   61.87  
+LAKE EON A  (QUE)              51.87   63.28  
+MONT JOLI A  (QUE)             48.60   68.20  
+MONTREAL INT'L. A  (QUE)       45.47   73.75  
+KUUJJUARAPIK A (QUE)           55.28   77.77  
+QUEBEC A  (QUE)                46.80   71.38  
+RIVIERE DU LOUP  (QUE)         47.80   69.55  
+ROBERVAL A  (QUE)              48.52   72.27  
+STE. AGATHE DES MONTS  (QUE)   46.05   74.28  
+ST. HUBERT A  (QUE)            45.52   73.42  
+SHERBROOKE A  (QUE)            45.43   71.68  
+VAL D'OR A  (QUE)              48.05   77.78  
+CHARLO A  (NB)                 48.00   66.33  
+MIRAMICHI A (NB)               47.02   65.45  
+MONCTON A  (NB)                46.12   64.68  
+SAINT JOHN A  (NB)             45.32   65.88  
+GREENWOOD A  (NS)              44.98   64.92  
+SHEARWATER A  (NS)             44.63   63.50  
+SYDNEY A  (NS)                 46.17   60.05  
+TRURO  (NS)                    45.37   63.27  
+YARMOUTH A  (NS)               43.83   66.08  
+SUMMERSIDE A  (PEI)            46.43   63.83  
+BATTLE HARBOUR  (NFLD)         52.25   55.60  
+BONAVISTA  (NFLD)              48.70   53.08  
+CARTWRIGHT  (NFLD)             53.70   57.03  
+DANIELS HARBOUR  (NFLD)        50.23   57.58  
+DEER LAKE A  (NFLD)            49.22   57.40  
+GANDER INT'L. A  (NFLD)        48.95   54.57  
+HOPEDALE  (NFLD)               55.45   60.23  
+ST. JOHN'S A  (NFLD)           47.62   52.75  
+STEPHENVILLE A  (NFLD)         48.53   58.55  
+WABUSH LAKE A  (NFLD)          52.93   66.87  
+CAPE ST. JAMES  (BC)           51.93  131.02  
+FORT NELSON A  (BC)            58.83  122.58  
+PORT HARDY A  (BC)             50.68  127.37  
+PRINCE GEORGE A  (BC)          53.88  122.67  
+SANDSPIT A  (BC)               53.25  131.82  
+SUMMERLAND CDA  (BC)           49.57  119.65  
+VANCOUVER UBC  (BC)            49.25  123.25  
+SWIFT CURRENT CDA  (SASK)      50.27  107.73  
+CHURCHILL A  (MAN)             58.75   94.07  
+THE PAS A  (MAN)               53.97  101.10  
+WINNIPEG INT'L. A  (MAN)       49.90   97.23  
+KAPUSKASING A  (ONT)           49.42   82.47  
+OTTAWA NRC  (ONT)              45.45   75.62  
+TORONTO  (ONT)                 43.67   79.38  
+TORONTO MET RES STN  (ONT)     43.80   79.55  
+BIG TROUT LAKE  (ONT)          53.83   89.87  
+KUUJUAQ A (QUE)                58.10   68.42  
+MONTREAL JEAN BREBEUF  (QUE)   45.50   73.62  
+NITCHEQUON  (QUE)              53.20   70.90  
+SCHEFFERVILLE A  (QUE)         54.80   66.82  
+SEPT-ILES UA  (QUE)            50.22   66.25  
+FREDERICTON CDA  (NB)          45.92   66.62  
+SABLE ISLAND  (NS)             43.93   60.02  
+CHARLOTTETOWN CDA  (PEI)       46.25   63.13  
+GOOSE UA  (NFLD)               53.32   60.37  
+ST. JOHN'S WEST CDA  (NFLD)    47.52   52.78  
+WHITEHORSE A  (YT)             60.72  135.07  
+BAKER LAKE A (NU)              64.30   96.00  
+CAMBRIDGE BAY A  (NU)          69.10  105.12  
+CORAL HARBOUR A  (NU)          64.20   83.37  
+FORT SMITH A  (NWT)            60.02  111.97  
+IQALUIT A  (NU)                63.75   68.55  
+HALL BEACH A  (NU)             68.78   81.25  
+INUVIK UA  (NWT)               68.32  133.53  
+NORMAN WELLS A  (NWT)          65.28  126.80  
+RESOLUTE CARS  (NU)            74.72   94.98  
+VANCOUVER INT'L.  (BC)         49.25  123.25  
+TORONTO PEARSON INT'L. A (ONT) 43.67   79.63  
+CHESTERFIELD (NU)              63.33   90.72  
+HAMILTON A (ONT)               43.25   79.93  
+YELLOWKNIFE A  (NWT)           62.47  114.45  
+CAPE PARRY A  (NWT)            70.17  124.68  
+BURWASH A   (YT)               61.37  139.05  
+OLD GLORY MOUNTAIN (BC)        49.15  117.92  
+MONTREAL MIRABEL A  (QUE)      45.68   74.03  
+OTTAWA CDA  (ONT)              45.38   75.72  
+CRANBROOK A  (BC)              49.60  115.78  
+HALIFAX INT'L. A  (NS)         44.88   63.52  
+PETERBOROUGH A (ONT)           44.23   78.35  
+TORONTO BUTTONVILLE A (ONT)    43.87   79.37  
+ST. CATHERINES A (ONT)         43.20   79.17  
+LA GRANDE RIVIERE A (QUE)      53.63   77.70  
+ARMSTRONG A  (ONT)             50.28   88.90  
+MOULD BAY A (NWT)              76.23  119.33  
+LA GRANDE IV A (QUE)           53.75   73.67  
+EDMONTON STONY PLAIN (ALTA)    53.55  114.10  
+EDMONTON MUNICIPAL A (ALTA)    53.57  113.52  
+EDMONTON NAMAO A (ALTA)        53.67  113.47  
+ VICTORIA GONZALES HTS (BC)     48.42  123.32 
+VICTORIA MARINE (BC)           48.65  123.43  
+NANAIMO A (BC)                 49.05  123.87  
+LYTTON (BC)                    50.23  121.50  
+KELOWNA A (BC)                 49.96  119.38  
+PRINCETON A (BC)               49.47  120.51  
+KIMBERLEY A (BC)               49.73  115.78  
+BEATTON RIVER A (BC)           57.38  121.28  
+SMITH RIVER A (BC)             59.90  126.43  
+DAWSON (YT)                    64.05  139.43  
+DAWSON A (YT)                  64.04  139.13  
+MAYO (YT)                      63.62  135.87  
+SNAG A (YT)                    62.37  140.40  
+TESLIN A (YT)                  60.17  132.74  
+WATSON LAKE A (YT)             60.12  128.82  
+FORT RELIANCE (NWT)            62.72  109.17  
+FORT RESOLUTION A (NWT)        61.28  113.69  
+FORT SIMPSON (NWT)             61.87  121.35  
+FORT SIMPSON A (NWT)           61.76  121.24  
+HAY RIVER A (NWT)              60.84  115.78  
+SACHS HARBOUR A (NWT)          72.00  125.27  
+KUGLUKTUK A(NU)                67.82  115.14  
+COPPERMINE (NU)                67.83  115.14  
+ENNADAI LAKE(NU)               61.13  100.90  
+RANKIN INLET A (NU)            62.82   92.10  
+CAPE DYER (NU)                 66.58   61.62  
+REA POINT (NU)                 75.37  105.72  
+CLYDE A (NU)                   70.49   68.52  
+LLOYDMINSTER (ALTA)            53.31  110.07  
+COWLEY A (ALTA)                49.63  114.08  
+PINCHER CREEK (ALTA)           49.50  113.95  
+SPRINGBANK A (ALTA)            51.10  114.37  
+EDSON (ALTA)                   53.58  116.42  
+EDSON A (ALTA)                 53.58  116.47  
+LAC LA BICHE (ALTA)            54.77  111.97  
+LAC LA BICHE AUT (ALTA)        54.77  112.02  
+SLAVE LAKE (ALTA)              55.30  114.78  
+WAGNER (ALTA)                  55.35  114.98  
+FORT CHIPEWYAN A (ALTA)        58.77  111.12  
+HIGH LEVEL A (ALTA)            58.62  117.16  
+KINDERSLEY A (SASK)            51.52  109.18  
+LA RONGE A (SASK)              55.15  105.27  
+STONY RAPIDS A (SASK)          59.25  105.83  
+HUDSON BAY (SASK)              52.87  102.40  
+RIVERS (MAN)                   50.02  100.32  
+GIMLI (MAN)                    50.63   97.02  
+GIMLI A (MAN)                  50.63   97.05  
+ISLAND LAKE A (MAN)            53.85   94.65  
+LYNN LAKE A (MAN)              53.86  101.08  
+NORWAY HOUSE (MAN)             53.95   97.85  
+GRAHAM A (ONT)                 49.27   90.58  
+NAKINA A (ONT)                 50.18   86.70  
+WHITE RIVER (ONT)              48.60   85.28  
+CHAPLEAU (ONT)                 47.83   83.43  
+KILLALOE (ONT)                 45.57   77.42  
+PETAWAWA A (ONT)               45.95   77.32  
+STIRLING (ONT)                 44.32   77.63  
+TORONTO DOWNSVIEW A (ONT)      43.75   79.48  
+GASPE A (QUE)                  48.78   64.48  
+CHIBOUGAMAU A (QUE)            49.82   74.42  
+CHIBOUGAMAU CHAPAIS A (QUE)    49.77   74.53  
+CAMPBELLTON (NB)               48.00   66.67  
+MIRAMICHI A (NB)               47.01   65.45  
+ST LEONARD (NB)                47.16   67.83  
+COPPER LAKE (NS)               45.38   61.97  
+DEBERT (NS)                    45.42   63.45  
+EDDY POINT (NS)                45.52   61.25  
+HALIFAX (NS)                   44.65   63.57  
+SHELBURNE (NS)                 43.72   65.25  
+ARGENTIA A (NFLD)              47.30   54.00  
+BONAVISTA  (NFLD)              48.70   53.08  
+BUCHANS A (NFLD)               48.85   56.83  
+BURGEO (NFLD)                  47.62   57.62  
+COMFORT COVE (NFLD)            49.27   54.88  
+PORT AUX BASQUES (NFLD)        47.57   59.15  
+ST. ANDREWS (NFLD)             47.77   59.33  
+ST. ANTHONY (NFLD)             51.37   55.58  
+TWILLINGATE (NFLD)             49.67   54.82  
+CAPE HARRISON (NFLD)           54.77   58.45  
+CHURCHILL FALLS A (NFLD)       53.55   64.10  
+TORONTO ISLAND A (ONT)         43.63   79.40  
+COLLINS BAY  (SASK)            58.18  103.68  
+EUREKA (NWT)                   80.00   85.93  
+MOOSONEE (ONT)                 51.27   80.65  
+ALERT (NU)                     82.50   62.33  
+ISACHSEN (NU)                  78.78  103.53  
