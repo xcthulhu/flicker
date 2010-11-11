@@ -32,7 +32,8 @@ def phase_delay(data,freq):
 		temp_dft_comp += x[1]*e**(-1j*(2*pi*freq*n))
 		n+=1
 	# Return the two components and their quotient
-	return sun_dft_comp,temp_dft_comp,sun_dft_comp/temp_dft_comp
+	return [sun_dft_comp,temp_dft_comp,sun_dft_comp/temp_dft_comp]
+
 
 # calculate and print phase differences for WY2 file
 def print_phases(fname,freq):
@@ -46,11 +47,13 @@ def print_phases(fname,freq):
 		add_data(ln, data)
 	WY2_fp.close()
 	fdata = fix_data(data)
-	print fst_ln[0:4],apply(",{0},{1},{2}".format,phase_delay(fdata,freq))
+	print apply("{0}\t{1}\t{2}\t{3}".format,
+	            [fst_ln[0:5]]+phase_delay(fdata,freq))
 	sys.stdout.flush()
 
 if __name__ == "__main__":
 	### NOTE ###
-	# Using eval here is dangerous!  I should really write a regular 
+	# Using eval here is dangerous!  
+        # I probably ought to write a regular 
 	# expression to check that argv[1] is safe
 	for fname in argv[2:]: print_phases(fname,eval(argv[1]))
