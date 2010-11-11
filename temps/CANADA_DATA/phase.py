@@ -31,8 +31,8 @@ def phase_delay(data,freq):
 		sun_dft_comp += x[0]*e**(-1j*(2*pi*freq*n))
 		temp_dft_comp += x[1]*e**(-1j*(2*pi*freq*n))
 		n+=1
-	# Return the difference in phases
-	return (phase(sun_dft_comp/temp_dft_comp)+2*pi) % (2*pi)
+	# Return the two components and their quotient
+	return sun_dft_comp,temp_dft_comp,sun_dft_comp/temp_dft_comp
 
 # calculate and print phase differences for WY2 file
 def print_phases(fname,freq):
@@ -46,7 +46,7 @@ def print_phases(fname,freq):
 		add_data(ln, data)
 	WY2_fp.close()
 	fdata = fix_data(data)
-	print fst_ln[0:5],phase_delay(fdata,freq)	
+	print fst_ln[0:4],apply(",{0},{1},{2}".format,phase_delay(fdata,freq))
 	sys.stdout.flush()
 
 if __name__ == "__main__":
