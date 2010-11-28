@@ -1,0 +1,235 @@
+v 20091004 2
+T 54200 39600 9 10 1 0 0 0 2
+Resistor Capacitor Ladder
+(driven by a linear feedack shift register)
+C 41800 47400 1 0 0 resistor-1.sym
+{
+T 42100 47800 5 10 0 0 0 0 1
+device=RESISTOR
+T 42100 47700 5 10 1 1 0 0 1
+refdes=R1
+T 42100 47200 5 10 1 1 0 0 1
+value=1k
+}
+C 42900 46600 1 90 0 capacitor-1.sym
+{
+T 42200 46800 5 10 0 0 90 0 1
+device=CAPACITOR
+T 42400 47100 5 10 1 1 180 0 1
+refdes=C1
+T 42000 46800 5 10 0 0 90 0 1
+symversion=0.1
+T 43000 47000 5 10 1 1 0 0 1
+value=47nF
+}
+C 42500 46300 1 0 0 ground.sym
+N 41800 47500 41000 47500 4
+{
+T 40300 47500 5 10 1 1 0 0 1
+netname=lfsr_out
+}
+C 43600 47400 1 0 0 resistor-1.sym
+{
+T 43900 47800 5 10 0 0 0 0 1
+device=RESISTOR
+T 43900 47700 5 10 1 1 0 0 1
+refdes=R2
+T 43900 47200 5 10 1 1 0 0 1
+value=1k
+}
+C 44700 46600 1 90 0 capacitor-1.sym
+{
+T 44000 46800 5 10 0 0 90 0 1
+device=CAPACITOR
+T 44200 47100 5 10 1 1 180 0 1
+refdes=C2
+T 43800 46800 5 10 0 0 90 0 1
+symversion=0.1
+T 44800 47000 5 10 1 1 0 0 1
+value=47nF
+}
+C 44300 46300 1 0 0 ground.sym
+N 42700 47500 43600 47500 4
+C 45400 47400 1 0 0 resistor-1.sym
+{
+T 45700 47800 5 10 0 0 0 0 1
+device=RESISTOR
+T 45700 47700 5 10 1 1 0 0 1
+refdes=R3
+T 45700 47200 5 10 1 1 0 0 1
+value=1k
+}
+C 46500 46600 1 90 0 capacitor-1.sym
+{
+T 45800 46800 5 10 0 0 90 0 1
+device=CAPACITOR
+T 46000 47100 5 10 1 1 180 0 1
+refdes=C3
+T 45600 46800 5 10 0 0 90 0 1
+symversion=0.1
+T 46600 47000 5 10 1 1 0 0 1
+value=47nF
+}
+C 46100 46300 1 0 0 ground.sym
+N 44500 47500 45400 47500 4
+C 47200 47400 1 0 0 resistor-1.sym
+{
+T 47500 47800 5 10 0 0 0 0 1
+device=RESISTOR
+T 47500 47700 5 10 1 1 0 0 1
+refdes=R4
+T 47500 47200 5 10 1 1 0 0 1
+value=1k
+}
+C 48300 46600 1 90 0 capacitor-1.sym
+{
+T 47600 46800 5 10 0 0 90 0 1
+device=CAPACITOR
+T 47800 47100 5 10 1 1 180 0 1
+refdes=C4
+T 47400 46800 5 10 0 0 90 0 1
+symversion=0.1
+T 48400 47000 5 10 1 1 0 0 1
+value=47nF
+}
+C 47900 46300 1 0 0 ground.sym
+N 46300 47500 47200 47500 4
+C 49000 47400 1 0 0 resistor-1.sym
+{
+T 49300 47800 5 10 0 0 0 0 1
+device=RESISTOR
+T 49300 47700 5 10 1 1 0 0 1
+refdes=R5
+T 49300 47200 5 10 1 1 0 0 1
+value=1k
+}
+C 50100 46600 1 90 0 capacitor-1.sym
+{
+T 49400 46800 5 10 0 0 90 0 1
+device=CAPACITOR
+T 49600 47100 5 10 1 1 180 0 1
+refdes=C5
+T 49200 46800 5 10 0 0 90 0 1
+symversion=0.1
+T 50200 47000 5 10 1 1 0 0 1
+value=47nF
+}
+C 49700 46300 1 0 0 ground.sym
+N 48100 47500 49000 47500 4
+C 50800 47400 1 0 0 resistor-1.sym
+{
+T 51100 47800 5 10 0 0 0 0 1
+device=RESISTOR
+T 51100 47700 5 10 1 1 0 0 1
+refdes=R6
+T 51100 47200 5 10 1 1 0 0 1
+value=1k
+}
+C 51900 46600 1 90 0 capacitor-1.sym
+{
+T 51200 46800 5 10 0 0 90 0 1
+device=CAPACITOR
+T 51400 47100 5 10 1 1 180 0 1
+refdes=C6
+T 51000 46800 5 10 0 0 90 0 1
+symversion=0.1
+T 52000 47000 5 10 1 1 0 0 1
+value=47nF
+}
+C 51500 46300 1 0 0 ground.sym
+N 49900 47500 50800 47500 4
+N 51700 47500 52600 47500 4
+C 52600 47400 1 0 0 resistor-1.sym
+{
+T 52900 47800 5 10 0 0 0 0 1
+device=RESISTOR
+T 52900 47700 5 10 1 1 0 0 1
+refdes=R7
+T 52900 47200 5 10 1 1 0 0 1
+value=1k
+}
+C 53700 46600 1 90 0 capacitor-1.sym
+{
+T 53000 46800 5 10 0 0 90 0 1
+device=CAPACITOR
+T 53200 47100 5 10 1 1 180 0 1
+refdes=C7
+T 52800 46800 5 10 0 0 90 0 1
+symversion=0.1
+T 53800 47000 5 10 1 1 0 0 1
+value=47nF
+}
+C 53300 46300 1 0 0 ground.sym
+N 53500 47500 54400 47500 4
+C 54400 47400 1 0 0 resistor-1.sym
+{
+T 54700 47800 5 10 0 0 0 0 1
+device=RESISTOR
+T 54700 47700 5 10 1 1 0 0 1
+refdes=R8
+T 54700 47200 5 10 1 1 0 0 1
+value=1k
+}
+C 55500 46600 1 90 0 capacitor-1.sym
+{
+T 54800 46800 5 10 0 0 90 0 1
+device=CAPACITOR
+T 55000 47100 5 10 1 1 180 0 1
+refdes=C8
+T 54600 46800 5 10 0 0 90 0 1
+symversion=0.1
+T 55600 47000 5 10 1 1 0 0 1
+value=47nF
+}
+C 55100 46300 1 0 0 ground.sym
+C 56200 47400 1 0 0 resistor-1.sym
+{
+T 56500 47800 5 10 0 0 0 0 1
+device=RESISTOR
+T 56500 47700 5 10 1 1 0 0 1
+refdes=R9
+T 56500 47200 5 10 1 1 0 0 1
+value=1k
+}
+C 57300 46600 1 90 0 capacitor-1.sym
+{
+T 56600 46800 5 10 0 0 90 0 1
+device=CAPACITOR
+T 56800 47100 5 10 1 1 180 0 1
+refdes=C9
+T 56400 46800 5 10 0 0 90 0 1
+symversion=0.1
+T 57400 47000 5 10 1 1 0 0 1
+value=47nF
+}
+C 56900 46300 1 0 0 ground.sym
+C 58000 47400 1 0 0 resistor-1.sym
+{
+T 58300 47800 5 10 0 0 0 0 1
+device=RESISTOR
+T 58300 47700 5 10 1 1 0 0 1
+refdes=R10
+T 58300 47200 5 10 1 1 0 0 1
+value=1k
+}
+C 59100 46600 1 90 0 capacitor-1.sym
+{
+T 58400 46800 5 10 0 0 90 0 1
+device=CAPACITOR
+T 58600 47100 5 10 1 1 180 0 1
+refdes=C10
+T 58200 46800 5 10 0 0 90 0 1
+symversion=0.1
+T 59200 47000 5 10 1 1 0 0 1
+value=47nF
+}
+C 58700 46300 1 0 0 ground.sym
+N 57100 47500 58000 47500 4
+T 54200 39200 9 10 1 0 0 0 1
+rc-ladder.sch
+T 54400 38900 9 10 1 0 0 0 1
+2
+T 55900 38900 9 10 1 0 0 0 1
+2
+C 39200 38600 0 0 0 title-bordered-C.sym
+N 55300 47500 56200 47500 4
