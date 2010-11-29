@@ -55,9 +55,9 @@ while (time <= now):
     tm = gmtime(time)
     day, month, year = tm.tm_mday, tm.tm_mon, tm.tm_year
 
-    # These parameters acquire sunlight data for the SOCO stations
+    # These parameters acquire sunlight data for all available stations
     params = urllib.urlencode({'first_look': 'no', 'select_date': 'user', 'user_day': day, 'user_month': month-1, 
-                               'user_year': year, 'user_param': 63301, 'time_format': '24hr', 'region_crit': '09'})
+                               'user_year': year, 'user_param': 63301, 'time_format': '24hr', 'region_crit': all})
 
     # Acquire Data
     conn = httplib.HTTPConnection("trexwww.ucc.nau.edu")
