@@ -8,20 +8,17 @@ entity lfsr_tb is end;
 architecture behav of lfsr_tb is
   component lfsr is
     port (CLK  : in  std_logic;
-          nout : out std_logic;
           pout : out std_logic
           );
   end component;
   --  Specifies which entity is bound with the component.
   for dut     : lfsr use entity work.lfsr;
   signal CLK  : std_logic;
-  signal nout : std_logic;
   signal pout : std_logic;
 begin
   --  Component instantiation.
   dut : lfsr
     port map (CLK  => CLK,
-              nout => nout,
               pout => pout) ;
   process
     -- These control the looping we will do

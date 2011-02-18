@@ -16,8 +16,8 @@ architecture RTL of LFSR is
   signal x : std_logic := '0';
 begin
   IO_L24N_3 : OBUF
-    port map (I  => x,
-               O => pout) ;
+    port map (I => x,
+              O => pout);
 
   emit : process(clk)
     variable i : integer := 0;

@@ -1,10 +1,11 @@
 OBJS = lfsr.o
 PROGS = lfsr_tb
 SIMS = lfsr_tb.vcd
-BITMAP=lfsr.bit
+BITMAP=#lfsr.bit
+UNISIM=unisim/unisim-obj93.cf
 COMP=ghdl
-VHDL_C=$(COMP) -a 
-VHDL_E=$(COMP) -e
+VHDL_C=$(COMP) -i
+VHDL_E=$(COMP) -m -g -Punisim --warn-unused --ieee=synopsys 
 VHDL_R=$(COMP) -r
 DEVEL_BASE=.
 RM=rm -f
@@ -12,7 +13,10 @@ RMDIR=rm -rf
 
 all: $(OBJS) $(PROGS) $(SIMS) $(BITMAP)
 
-%.o : %.vhdl
+$(UNISIM) : 
+	$(MAKE) -C unisim all
+
+%.o : %.vhdl $(UNISIM)
 	$(VHDL_C) $< 
 
 %_tb : %_tb.vhdl %.o
@@ -39,5 +43,5 @@ install : install_bitmap
 clean :
 	# Clean GHDL products
 	$(RM) *.o *.cf $(PROGS) *.vcd
-	$(RM) -r work
-	$(RM) *~
+	# Clean Xilinx UNISIM stuff
+	$(MAKE) -C unisim clean
