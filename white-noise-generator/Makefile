@@ -1,7 +1,7 @@
 OBJS = lfsr.o
 PROGS = lfsr_tb
 SIMS = lfsr_tb.vcd
-BITMAP=#lfsr.bit
+BITMAP=lfsr.bit
 UNISIM=unisim/unisim-obj93.cf
 COMP=ghdl
 VHDL_C=$(COMP) -i

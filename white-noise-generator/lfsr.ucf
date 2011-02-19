@@ -3,5 +3,5 @@ NET "Clk" LOC = "N9"; # CLK0
 NET "Clk" TNM_NET = "Clk";
 TIMESPEC "TS_Clk" = PERIOD "Clk" 10 ns HIGH 50 %;
 # LED
-NET "nout"   LOC = "M4" | IOSTANDARD = LVCMOS33 ; #IO_L24N_3
-NET "pout"   LOC = "N3" | IOSTANDARD = LVCMOS33 ; #IO_L24P_3
+NET "pout"   LOC = "M4" | IOSTANDARD = LVCMOS33 ; #IO_L24N_3
+#NET "nout"   LOC = "N3" | IOSTANDARD = LVCMOS33 ; #IO_L24P_3
