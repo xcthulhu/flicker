@@ -1,12 +1,7 @@
 # Clock at 100MHz
 NET "clk" LOC = "N9"; # CLK0
-# LED
-NET "pout"   LOC = "M4" | IOSTANDARD = LVCMOS33 ; #IO_L24N_3
-#NET "nout"   LOC = "N3" | IOSTANDARD = LVCMOS33 ; #IO_L24P_3
-
-#######################
-# Set Clock to 100MHz #
-#######################
-
 NET "clk" TNM_NET = "clk";
 TIMESPEC "TS_clk" = PERIOD "clk" 10 ns HIGH 50 %;
+# LED
+#NET "nout" LOC = "C15"| IOSTANDARD = LVCMOS33 ; #IO_L24N_1
+NET "pout"   LOC = "C16"| IOSTANDARD = LVCMOS33 ; #IO_L24P_1
