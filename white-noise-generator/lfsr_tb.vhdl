@@ -7,7 +7,7 @@ entity lfsr_tb is end;
 
 architecture behav of lfsr_tb is
   component lfsr is
-    port (CLK  : in  std_logic;
+    port (Clk  : in  std_logic;
           pout : out std_logic
           );
   end component;
